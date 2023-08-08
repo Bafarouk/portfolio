@@ -66,8 +66,6 @@ function pageTransition() {
   }
 
   function sendEmail(name, email, subject, message) {
-    console.log("im here");
-
     Email.send({
       SecureToken: "0a0b5980-070a-4361-acfa-f21d5cd38a8c",
       To: "med.faroukakacha@gmail.com",
